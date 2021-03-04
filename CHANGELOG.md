@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0-alpha.4](https://github.com/SergeyBondar93/monorepo/compare/v0.2.0-alpha.3...v0.2.0-alpha.4) (2021-03-04)
+
+
+### Bug Fixes
+
+* update 3 patch ([26dac77](https://github.com/SergeyBondar93/monorepo/commit/26dac77d39b7b49bd7aed87174b06bd76c56fc6c))
+
+
+### Features
+
+* update one minor ([0e54a44](https://github.com/SergeyBondar93/monorepo/commit/0e54a449c3384dbd0455a8a67efd029454f911ff))
+
+
+
+
+
 # [0.2.0-alpha.3](https://github.com/SergeyBondar93/monorepo/compare/v0.2.0-alpha.2...v0.2.0-alpha.3) (2021-03-04)
 
 **Note:** Version bump only for package crm-front-react

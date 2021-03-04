@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0-alpha.4](https://github.com/SergeyBondar93/monorepo/compare/v0.2.0-alpha.3...v0.2.0-alpha.4) (2021-03-04)
+
+
+### Features
+
+* update one minor ([0e54a44](https://github.com/SergeyBondar93/monorepo/commit/0e54a449c3384dbd0455a8a67efd029454f911ff))
+
+
+
+
+
 # [0.2.0-alpha.1](https://github.com/SergeyBondar93/monorepo/compare/v0.2.0-alpha.0...v0.2.0-alpha.1) (2021-03-04)
 
 
