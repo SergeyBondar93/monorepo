@@ -1,0 +1,12 @@
+{
+  "name": "@pkg/three",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack-dev-server --progress --source-maps",
+    "build": "webpack --progress --source-maps",
+    "build:prod": "cross-env NODE_ENV=production webpack --source-maps",
+    "build:analyze": "cross-env ANALYZE=true npm run build:prod",
+    "build:clean": "rimraf ./dist"
+  },
+  "dependencies": {}
+}
