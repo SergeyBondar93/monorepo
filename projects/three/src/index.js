@@ -9,6 +9,7 @@ const ProjectThree = () => {
     }}
   >
     <h1>This is project Three</h1>
+    <p>Update project 1</p>
   </div>
 }
 
