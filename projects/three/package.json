@@ -1,6 +1,6 @@
 {
   "name": "@pkg/three",
-  "version": "0.2.0-alpha.0",
+  "version": "0.2.0-alpha.1",
   "scripts": {
     "start": "webpack-dev-server --progress --source-maps",
     "build": "webpack --progress --source-maps",
