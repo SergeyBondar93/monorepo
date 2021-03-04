@@ -14,7 +14,7 @@ const ProjectOne = () => {
     <p>Update project 3</p>
     <p>Update project 4</p>
     <p>MINOR UPDATE 5</p>
-    <p>MINOR UPDATE 6</p>
+    <p>MINOR UPDATE 6!</p>
   </div>
 }
 

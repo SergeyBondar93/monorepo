@@ -1,0 +1,98 @@
+0 silly argv {
+0 silly argv   _: [ 'version' ],
+0 silly argv   'conventional-commits': true,
+0 silly argv   conventionalCommits: true,
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': '..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath C:\Users\abobo\Desktop\test\monorep
+3 info current version 0.1.1-alpha.0
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly getCurrentBranch
+7 verbose currentBranch master
+8 silly remoteBranchExists
+9 silly isBehindUpstream
+10 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 1
+11 silly hasTags
+12 verbose hasTags true
+13 silly git-describe.sync "v0.1.1-alpha.0-3-gae87f31" => {"lastTagName":"v0.1.1-alpha.0","lastVersion":"v0.1.1-alpha.0","refCount":"3","sha":"ae87f31","isDirty":false}
+14 info Looking for changed packages since v0.1.1-alpha.0
+15 silly checking diff projects/one
+16 silly found diff in projects/one/src/index.js
+17 verbose filtered diff [ 'projects/one/src/index.js' ]
+18 silly checking diff projects/three
+19 silly found diff in projects/three/src/index.js
+20 verbose filtered diff [ 'projects/three/src/index.js' ]
+21 silly checking diff projects/two
+22 silly no diff found in @pkg/two
+23 verbose updated @pkg/one
+24 verbose updated @pkg/three
+25 verbose git-describe undefined => "v0.1.1-alpha.0-3-gae87f31"
+26 silly git-describe parsed => {"lastTagName":"v0.1.1-alpha.0","lastVersion":"v0.1.1-alpha.0","refCount":"3","sha":"ae87f31","isDirty":false}
+27 verbose version Overriding version of @pkg/three from 0.0.1-alpha.0 to 0.1.1-alpha.0
+28 silly fixed for @pkg/one at C:\Users\abobo\Desktop\test\monorep\projects\one
+29 verbose getChangelogConfig using preset "conventional-changelog-angular"
+30 silly npa Result {
+30 silly npa   type: 'tag',
+30 silly npa   registry: true,
+30 silly npa   where: undefined,
+30 silly npa   raw: 'conventional-changelog-angular',
+30 silly npa   name: 'conventional-changelog-angular',
+30 silly npa   escapedName: 'conventional-changelog-angular',
+30 silly npa   scope: undefined,
+30 silly npa   rawSpec: '',
+30 silly npa   saveSpec: null,
+30 silly npa   fetchSpec: 'latest',
+30 silly npa   gitRange: undefined,
+30 silly npa   gitCommittish: undefined,
+30 silly npa   hosted: undefined
+30 silly npa }
+31 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
+32 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
+33 verbose fixed increment 0.1.1-alpha.0 by preminor
+34 silly fixed for @pkg/three at C:\Users\abobo\Desktop\test\monorep\projects\three
+35 verbose fixed increment 0.1.1-alpha.0 by prerelease
+36 info execute Skipping releases
+37 silly lifecycle No script for "preversion" in "crm-front-react", continuing
+38 silly lifecycle No script for "preversion" in "@pkg/one", continuing
+39 silly lifecycle No script for "preversion" in "@pkg/three", continuing
+40 silly lifecycle No script for "version" in "@pkg/three", continuing
+41 silly fixed for @pkg/three at C:\Users\abobo\Desktop\test\monorep\projects\three
+42 silly lifecycle No script for "version" in "@pkg/one", continuing
+43 silly fixed for @pkg/one at C:\Users\abobo\Desktop\test\monorep\projects\one
+44 silly fixed writing new entry: "# [0.2.0-alpha.0](https://github.com/SergeyBondar93/monorepo/compare/v0.1.1-alpha.0...v0.2.0-alpha.0) (2021-03-04)\n\n**Note:** Version bump only for package @pkg/three\n\n\n\n"
+45 verbose fixed wrote C:\Users\abobo\Desktop\test\monorep\projects\three\CHANGELOG.md
+46 silly fixed writing new entry: "# [0.2.0-alpha.0](https://github.com/SergeyBondar93/monorepo/compare/v0.1.1-alpha.0...v0.2.0-alpha.0) (2021-03-04)\n\n\n### Features\n\n* **one:** Add minor update to 1 package ([ae87f31](https://github.com/SergeyBondar93/monorepo/commit/ae87f31b77a8719ae938080491a244debd798b67))\n* **one:** Add minor update to 1 package ([7349bca](https://github.com/SergeyBondar93/monorepo/commit/7349bca01f8d34de7bdbf9b625e2080682e6a011))\n\n\n\n"
+47 verbose fixed wrote C:\Users\abobo\Desktop\test\monorep\projects\one\CHANGELOG.md
+48 silly root for crm-front-react at C:\Users\abobo\Desktop\test\monorep
+49 silly root writing new entry: "# [0.2.0-alpha.0](https://github.com/SergeyBondar93/monorepo/compare/v0.1.1-alpha.0...v0.2.0-alpha.0) (2021-03-04)\n\n\n### Features\n\n* **one:** Add minor update to 1 package ([ae87f31](https://github.com/SergeyBondar93/monorepo/commit/ae87f31b77a8719ae938080491a244debd798b67))\n* **one:** Add minor update to 1 package ([7349bca](https://github.com/SergeyBondar93/monorepo/commit/7349bca01f8d34de7bdbf9b625e2080682e6a011))\n\n\n\n"
+50 verbose root wrote C:\Users\abobo\Desktop\test\monorep\CHANGELOG.md
+51 silly lifecycle No script for "version" in "crm-front-react", continuing
+52 silly gitAdd [
+52 silly gitAdd   'projects/three/package.json',
+52 silly gitAdd   'projects/one/package.json',
+52 silly gitAdd   'projects/three/CHANGELOG.md',
+52 silly gitAdd   'projects/one/CHANGELOG.md',
+52 silly gitAdd   'CHANGELOG.md',
+52 silly gitAdd   'lerna.json'
+52 silly gitAdd ]
+53 silly gitCommit v0.2.0-alpha.0
+54 verbose git [ 'commit', '-m', 'v0.2.0-alpha.0' ]
+55 silly gitTag v0.2.0-alpha.0
+56 verbose git [ 'tag', 'v0.2.0-alpha.0', '-m', 'v0.2.0-alpha.0' ]
+57 silly lifecycle No script for "postversion" in "@pkg/one", continuing
+58 silly lifecycle No script for "postversion" in "@pkg/three", continuing
+59 silly lifecycle No script for "postversion" in "crm-front-react", continuing
+60 info git Pushing tags...
+61 silly gitPush origin master
+62 error Error: Command failed with exit code 1: git push --follow-tags --no-verify --atomic origin master
+62 error To https://github.com/SergeyBondar93/monorepo.git
+62 error  ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 7349bca01f8d34de7bdbf9b625e2080682e6a011 but expected 7b5419d8fd1d8aa3fbdf05a7bf2f3c58a37d3923)
+62 error  ! [remote rejected] v0.1.0-alpha.0 -> v0.1.0-alpha.0 (failed)
+62 error  ! [remote rejected] v0.1.1-alpha.0 -> v0.1.1-alpha.0 (failed)
+62 error  ! [remote rejected] v0.2.0-alpha.0 -> v0.2.0-alpha.0 (failed)
+62 error error: failed to push some refs to 'https://github.com/SergeyBondar93/monorepo.git'
+62 error     at makeError (C:\Users\abobo\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\lib\error.js:59:11)
+62 error     at handlePromise (C:\Users\abobo\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:114:26)
